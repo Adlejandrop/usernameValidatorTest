@@ -1,0 +1,31 @@
+Instrucciones: 
+
+
+Dado un string, crear una función CodelandUsernameValidation(str) que determine si un nombre es
+válido de acuerdo a las siguientes reglas:
+1. El nombre de usuario tiene entre 4 y 25 caracteres.
+2. Debe comenzar con una letra.
+3. Solo puede contener letras, números y el carácter de subrayado.
+4. No puede terminar con un carácter de subrayado.
+Si el nombre de usuario es válido, su programa debe devolver la cadena verdadera, de lo
+contrario, devolver la cadena falsa.
+Agregar un input que permita ingresar la palabra de entrada y una sección que muestra si el texto
+es válido o no.
+Ejemplos de uso:
+• Entrada: "aa_"
+• Salida: falso
+• Entrada: "u__hello_world123"
+• Salida: verdadero
+
+Consideraciones:
+- Puedes desarrollar el algoritmo en el lenguaje que quieras.
+- El código debe estar en inglés.
+- Si debes asumir algo, déjalo por escrito como comentario en el código.
+Entregables:
+- Un código que implementa el algoritmo.
+- Debe crear un README.md con las instrucciones para ejecutar el código.
+- Suma puntos si está alojado en github
+A Evaluar:
+- Correctitud: el algoritmo debe funcionar correctamente.
+- Eficiencia: el algoritmo debe ser eficiente.
+- Diseño: el código debe ser limpio y fácil de leer.

@@ -1,0 +1,34 @@
+
+
+
+Front: 
+
+HTML donde el usuario puede ingresar un nombre de usuario 
+El nombre ingresado sera validado de acuerdo a ciertas reglas
+En caso de ser un nombre valido se DEBE devolver "verdadera"
+En caso de no ser un nombre valido se DEBE devolver "falso".
+
+
+
+
+Back:
+
+Recibir cadena del usuario 
+
+Una vez recibida la cadena pasar por el proceso de validacion
+*Utilizar Debouncing para recibir cuando el input deja de escribirse
+
+
+Proceso de validacion: 
+Ejecutado desde la funcion prinipal CodelandUsernameValidation
+
+Crear archivo Validador, una clase donde:
+
+-Se crea un arreglo donde van las reglas como strings de REGEX
+-Se agrega un metodo para eliminar reglas
+-Se agrega un metodo para crear nuevas reglas
+
+
+
+CodelandUsernameValidation llama a Validador.validar() y retorna
+segun el resultado de validador

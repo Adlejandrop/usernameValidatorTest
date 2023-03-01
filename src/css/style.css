@@ -1,0 +1,7 @@
+.validUsername {
+    background-color: palegreen;
+}
+
+.invalidUsername {
+    background-color: palevioletred;
+}
