@@ -9,7 +9,7 @@ The purpose of this application is to validate usernames entered by a user and l
 
 In this repository you will find the main logic inside of the main.js file (src/js/main.js).
 To check the rules you can go to the Rules.js file (src/js/validation/Rules).
-To check the validation logic you can go to the Validator.js file (src/js/validation/Validator.js).
+To check the validation logic you can go to the UserValidator.js file (src/js/validation/UserValidator.js).
 The rest of the files are a style.css for a simple ui and an html file, index.html. 
 
 >>How to run: 
