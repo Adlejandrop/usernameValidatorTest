@@ -14,7 +14,7 @@ The rest of the files are a style.css for a simple ui and an html file, index.ht
 >>How to run: 
 
 You can either run this web app by going to https://adlejandrop.github.io/usernameValidatorTest/
-or opening the index.html file in Visual Studio code, and run it with the Live Server Extension 
+or cloning the repo, opening the index.html file in Visual Studio code, and run it with the Live Server Extension 
 
 Once the browser opens this web app, try any username by typing in the input element next to the word "Username:".
 The app runs in such a way that when you are done writing the name you will be shown a message telling you if the username is valid or not. 
