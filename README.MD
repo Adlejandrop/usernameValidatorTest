@@ -24,7 +24,7 @@ You can modify your input as many times as you want to check different usernames
 
 Given a simple prompt, I wanted to create a code that fulfilled the requirements but also allowd for further improvement in a hypothetical case where
 a client wants to continue building upon this project. 
-For this reason the code is structured in a way that achieves 2 main objectives: 
+For this reason the code is structured in a way that achieves 3 main objectives: 
 1. Readability 
 2. Editability 
 3. Ease of use for the user.
