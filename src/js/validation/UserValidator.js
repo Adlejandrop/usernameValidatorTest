@@ -1,4 +1,4 @@
-import regularExpressions from './RegularExpressions.js'
+import regularExpressions from './Rules.js'
 
 // This is a class created so that the code can be updated and changed easily. It allows a developer or dev team to store rules, add rules, and modify
 // the method that runs the actual validation. 
@@ -16,6 +16,10 @@ class UserValidator {
     }
 
 // This is the validator method. As we can see the name indicates that it will validate a user string according to "rules", it does not hardcode the rules.
+// This decision I believe can be discussed in terms of performance vs maleability. My approach focuses on having a code that can be easily understood and modified
+//when necesessary. It also allows the code to return an even more specific result to the user by telling them exactly why the username failed. This could be implemented
+// in future steps for the project.
+// A performance focused approach would probably create a single regex that contains all the requirements. 
     validateUserStrByRules(userStr) {
         for (let i = 0; i < this.rules.length; i++) {
             if (!this.rules[i].test(userStr)) return false;
@@ -30,6 +34,8 @@ class UserValidator {
     addNewRuleRegex(newRegex){
         this.rules.push(newRegex);
     }
+
+    
 
 }
 

@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Username Validator</title>
     <script src="./src/js/main.js" type="module"></script>
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
+    <span>
+        Please write your username. Keep in mind that a valid username has to follow this rules:
+    </span>
+        <ul>
+            <li>The username must be between 4 to 25 characters long</li>
+            <li>The username must start with a letter</li>
+            <li>The username may only have letters numbers and the _ character</li>
+            <li>The username must end in a letter or a number</li>
+        </ul>
     <div id="userTestContainer">
         <label for="">Username:</label><input id="usernameInput" type="text">
-        <div id="resultDisplayBox"></div>
+        <div id="resultDisplayBox"> 
+            <span id="resultDisplayText"></span>
+        </div>
     </div>
 
 
